@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C1E34DE27A1FA3300FEC7BE /* SingleMuffinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E34DD27A1FA3300FEC7BE /* SingleMuffinViewController.swift */; };
 		8C4A470B27A0DFDA007974AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A470A27A0DFDA007974AC /* AppDelegate.swift */; };
 		8C4A470D27A0DFDA007974AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A470C27A0DFDA007974AC /* SceneDelegate.swift */; };
 		8C4A470F27A0DFDA007974AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A470E27A0DFDA007974AC /* ViewController.swift */; };
-		8C4A471227A0DFDA007974AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A471027A0DFDA007974AC /* Main.storyboard */; };
 		8C4A471427A0DFDA007974AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A471327A0DFDA007974AC /* Assets.xcassets */; };
 		8C4A471727A0DFDA007974AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A471527A0DFDA007974AC /* LaunchScreen.storyboard */; };
+		8C4A472627A0E74A007974AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4A472527A0E74A007974AC /* HomeViewController.swift */; };
+		8C4A472F27A0F3B1007974AC /* muffin1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8C4A472E27A0F3B1007974AC /* muffin1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C1E34DD27A1FA3300FEC7BE /* SingleMuffinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMuffinViewController.swift; sourceTree = "<group>"; };
 		8C4A470727A0DFDA007974AC /* TopMuffin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopMuffin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4A470A27A0DFDA007974AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C4A470C27A0DFDA007974AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8C4A470E27A0DFDA007974AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C4A471127A0DFDA007974AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4A471327A0DFDA007974AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C4A471627A0DFDA007974AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4A471827A0DFDA007974AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4A472527A0E74A007974AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8C4A472E27A0F3B1007974AC /* muffin1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = muffin1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		8C4A470927A0DFDA007974AC /* TopMuffin */ = {
 			isa = PBXGroup;
 			children = (
+				8C4A472E27A0F3B1007974AC /* muffin1.jpeg */,
 				8C4A470A27A0DFDA007974AC /* AppDelegate.swift */,
 				8C4A470C27A0DFDA007974AC /* SceneDelegate.swift */,
 				8C4A470E27A0DFDA007974AC /* ViewController.swift */,
-				8C4A471027A0DFDA007974AC /* Main.storyboard */,
 				8C4A471327A0DFDA007974AC /* Assets.xcassets */,
 				8C4A471527A0DFDA007974AC /* LaunchScreen.storyboard */,
 				8C4A471827A0DFDA007974AC /* Info.plist */,
+				8C4A472527A0E74A007974AC /* HomeViewController.swift */,
+				8C1E34DD27A1FA3300FEC7BE /* SingleMuffinViewController.swift */,
 			);
 			path = TopMuffin;
 			sourceTree = "<group>";
@@ -125,8 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4A471727A0DFDA007974AC /* LaunchScreen.storyboard in Resources */,
+				8C4A472F27A0F3B1007974AC /* muffin1.jpeg in Resources */,
 				8C4A471427A0DFDA007974AC /* Assets.xcassets in Resources */,
-				8C4A471227A0DFDA007974AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4A472627A0E74A007974AC /* HomeViewController.swift in Sources */,
 				8C4A470F27A0DFDA007974AC /* ViewController.swift in Sources */,
+				8C1E34DE27A1FA3300FEC7BE /* SingleMuffinViewController.swift in Sources */,
 				8C4A470B27A0DFDA007974AC /* AppDelegate.swift in Sources */,
 				8C4A470D27A0DFDA007974AC /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +154,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C4A471027A0DFDA007974AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C4A471127A0DFDA007974AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8C4A471527A0DFDA007974AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samosaboy.TopMuffin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.samosaboy.TopMuffin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
